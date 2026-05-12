@@ -1,6 +1,5 @@
 import {Request, Response} from 'express';
 import pool from '../models/db';
-import { validate as isUuid } from "uuid";
 
 export const fetchContacts = async (req: Request, res: Response) => {
     try{
